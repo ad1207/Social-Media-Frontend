@@ -1,0 +1,89 @@
+.share{
+    width: 100%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+}
+
+.share-wrapper{
+    padding: 10px;
+}
+
+.share-profile-pic{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.share-top{
+    display: flex;
+    align-items: center;
+}
+
+.share-input{
+    border: none;
+    outline: none;
+    width: 80%;
+}
+
+.share-hr{
+    margin: 20px;
+}
+
+.share-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.share-options{
+    display: flex;
+    margin-left: 20px;
+}
+
+.share-option{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.share-option-icon{
+    font-style: 18px;
+    margin-right: 3px;
+}
+
+.share-option-text{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.share-button{
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+    background-color: dodgerblue;
+    font-weight: 500;
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.share-img-container{
+    padding: 0 20px 10px 20px;
+    position: relative;
+}
+
+.share-img{
+    width: 100%;
+    object-fit: cover;
+}
+.share-cancel{
+    position: absolute;
+    top: 0;
+    right: 20px;
+    cursor: pointer;
+    opacity: 0.7;
+}

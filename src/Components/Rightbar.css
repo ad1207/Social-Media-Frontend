@@ -1,0 +1,132 @@
+.rightbar{
+    flex:3;
+}
+
+.rightbar-wrapper{
+    padding: 20px 20px 0 0;
+}
+
+.birthday-img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.birthday-text{
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.birthday-container{
+    display: flex;
+    align-items: center;
+}
+
+.rightbar-ad{
+    width: 100%;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+
+.rightbar-friend-list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.rightbar-friend{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.rightbar-profile-pic-container{
+    margin-right: 10px;
+    position: relative;
+}
+
+.rightbar-profile-pic{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.rightbar-online{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgb(0, 210, 0);
+    position: absolute;
+    top: -2px;
+    right: 0;
+    border: 3px solid white;
+}
+
+.rightbar-title{
+    margin-bottom: 20px;
+}
+
+.rightbar-username{
+    font-weight: 400 ;
+}
+
+.rightbar-title{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.rightbar-following-img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.tightbar-info{
+    margin-bottom: 30px;
+}
+
+.rightbar-info-item{
+    margin-bottom: 10px;
+}
+
+.rightbar-info-key{
+    font-weight: 500;
+    margin-right: 15px;
+    color: gray;
+}
+
+.rightbar-info-value{
+    font-weight: 300;
+}
+
+.rightbar-followings{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rightbar-following{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.rightbar-follow-button{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+}
